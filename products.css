@@ -36,10 +36,24 @@ section header{
 section h1{
   font-size: 1.6rem;
   font-weight: 700;
-  color: red;
+  color: white;
   line-height: 1.4;
   margin-bottom: 40px;
   max-width: 650px;
 }
-
 /* END H1*/
+
+/* product card layout*/
+section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+section header,
+section h1{
+  width: 100%;
+}
+
+/* end product card layout*/
+
