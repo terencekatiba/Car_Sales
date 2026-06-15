@@ -5,3 +5,28 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+
+body{
+  background-color: #111;
+  color: white;
+}
+
+/* SECTION*/
+section{
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 30px;
+}
+
+/* END SECTION*/
+
+/*PRODUCTS*/
+section header{
+  font-family: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 12px;
+}
+/*PRODUCTS*/
